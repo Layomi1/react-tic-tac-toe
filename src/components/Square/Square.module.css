@@ -1,0 +1,11 @@
+.square {
+  display: flex;
+  width: 100px;
+  font-size: 40px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid red;
+  background-color: azure;
+}
