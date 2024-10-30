@@ -41,7 +41,7 @@ function App() {
     if (!getWinner(squares) && squares.every((item) => item !== "")) {
       setStatus("This is a draw! Please, restart the game");
     } else if (getWinner(squares)) {
-      setStatus(`Winner is ${getWinner(squares)}. Please, restart the ame`);
+      setStatus(`Winner is ${getWinner(squares)}. Please, restart the Game`);
     } else {
       setStatus(`Next player is ${isXTurn ? "X" : "O"}`);
     }
